@@ -9,5 +9,5 @@ Were there any requirements that were difficult to implement? What do you think 
 I am still trying to understand flexbox. I needed more time.
 
 
-
+I added the wireframes to give you an idea of what I was trying to design.
 

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Birding in Central Park Journal</title>
+    <link rel="stylesheet" href="./styles/birding.css">
 </head>
 <body style="height:100%; margin:0; padding:0; font-family: 'Courier New', Courier, monospace; font-size: medium;">
 
@@ -48,16 +49,48 @@ Pariatur ipsam necessitatibus nostrum! Esse odit laborum facilis molestiae molli
 
 
         <center><img src="/images/Red-tailed_hawk_in_Central_Park_(24796).jpg" alt="red-tailed hawk" height="400px" width="400px"><br>
-
-<audio controls autoplay>
+<div class="red-tail">
+<audio controls>
   <source src="/audio/red-tailed-hawk-freesound-community.mp3" type="audio/mpeg">
  
 Your browser does not support the audio element.
 </audio></center><br>
-
+</div>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum delectus dolorum corrupti modi. Incidunt nemo inventore dolores, eius consequatur temporibus, eligendi ullam, dicta velit ea eaque commodi repudiandae repellendus ipsa!</p>
     </article>
-<center><footer style="margin-bottom:50px;">Contact me:<a href="#">mail at centralparkbirding.org</a></footer></center>
+<center><footer style="margin-bottom:50px;">Please, contact me by completing the form below:</footer></center>
+
+
+
+
+
+
+</footer></center>
     </main>
+    
+<div class="contact-form">
+    <h3>Contact Form</h3>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="andromeda">Andromeda</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="email">Email</label>
+<input type="email" id="email" name="email" placeholder="Enter your email.."><br><br>
+
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</div>
+
+
+
 </body>
 </html>
